@@ -1,0 +1,177 @@
+.container{
+    display:grid;
+    grid-template-rows: 4fr 1.05fr;
+    height: 145vh;
+}
+body{
+    margin: 0;
+}
+
+.logo-login{
+    background-color: RGB(240, 242, 245);
+}
+.middle{
+    display: grid;
+    width: 78%;
+    height: 70%;
+    margin: 80px auto;
+    padding-top: 110px;
+    position: relative;
+    grid-template-columns:1.5fr 1fr;
+}
+.facebook
+{
+    height: 120px;
+    width: 350px;
+    margin-right: 40%;
+    padding-left: 0;
+    position: relative;
+    right: 33px;
+    top: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 0.8rem;
+    width: 390px;
+    height: 330px;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  }
+.facebook-moto>p{
+    display: inline-block;
+    width: 90%;
+}
+.facebook-moto
+{
+height: 40%;
+display: grid;
+grid-template-rows: 1fr 1fr;
+}
+.facebook-moto>div{
+padding-right: 50px;
+}
+form input {
+    outline: none;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: border-color 0.5s ease;
+  }
+  .celebrity
+  {
+    text-align: center;
+    margin-top: 10px;
+  }
+  p,h5{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    font-weight: 1000;
+  }
+  p{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  
+  form input:focus {
+    border: 1.8px solid #1877f2;
+    
+  }
+  
+  form .login {
+    outline: none;
+    border: none;
+    background: #1877f2;
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  form .login:hover {
+    background: #0f71f1;
+    cursor: pointer;
+  }
+  
+  form a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.91rem;
+    padding-top: 0.8rem;
+    color: #1877f2;
+  }
+  
+  form hr {
+    background: #f7f7f7;
+    margin: 1rem;
+  }
+  
+  form .create-account {
+    outline: none;
+    border: none;
+    background: #06b909;
+    padding: 0.9rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.13rem;
+    font-weight: 750;
+    color: #fff;
+    width: 56%;
+    margin: 0 auto;
+    margin-top: 23px;
+  }
+  form .create-account:hover {
+    background: #03ad06;
+    cursor: pointer;
+  }
+.moto
+{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(28, 30, 33);
+    font-size: 28px;
+    font-weight: 400;
+    line-height:32px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0px;
+    margin:0px;
+    padding:0px 0px 20px;
+}
+.language-policies
+{
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 80%;
+    margin-left: 136px;
+}
+.lang,.policy
+{
+height: 40px;
+width: 100%;
+text-align: left;
+}
+.copywrite
+{
+height: 40px;
+width: 100%;
+margin-top: 30px;
+}
+li{
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    font-weight: 100;
+    font-size: 15px;
+   color:grey;
+}
+.footer
+{
+    background-color: RGBA(0, 0, 0, 0);
+}
